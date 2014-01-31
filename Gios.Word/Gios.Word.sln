@@ -1,21 +1,19 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gios.Word", "Gios.Word.csproj", "{3E02291C-27CF-4895-AA1C-83814F78A22C}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{3E02291C-27CF-4895-AA1C-83814F78A22C}.Debug.ActiveCfg = Debug|.NET
-		{3E02291C-27CF-4895-AA1C-83814F78A22C}.Debug.Build.0 = Debug|.NET
-		{3E02291C-27CF-4895-AA1C-83814F78A22C}.Release.ActiveCfg = Release|.NET
-		{3E02291C-27CF-4895-AA1C-83814F78A22C}.Release.Build.0 = Release|.NET
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E02291C-27CF-4895-AA1C-83814F78A22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E02291C-27CF-4895-AA1C-83814F78A22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E02291C-27CF-4895-AA1C-83814F78A22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E02291C-27CF-4895-AA1C-83814F78A22C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
